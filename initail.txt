@@ -1,0 +1,14 @@
+To use this component, ensure you have React and Tailwind CSS set up in your project.
+
+Also, install lucide-react for the icons: npm install lucide-react
+
+This is a simplified version and can be expanded with more features as needed.
+
+Example usage in your main application file:
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import YTMusicClone from './YTMusicClone';
+import './index.css'; // Ensure Tailwind CSS is imported
+
+ReactDOM.render(<YTMusicClone />, document.getElementById('root'))
